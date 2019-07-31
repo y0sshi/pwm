@@ -20,4 +20,4 @@ tab: $(C_SOURCE).c
 	rm -f $(C_SOURCE).tab && ./$(C_SOURCE)
 
 clean:
-	rm -rf xmverilog.* *.shm xcelium.d $(C_SOURCE).tab $(C_SOURCE)
+	rm -rf xmverilog.* *.shm xcelium.d .simvision $(C_SOURCE).tab $(C_SOURCE)
